@@ -1,5 +1,5 @@
 ---
-title: "Headless Chrome, Puppteer를 활용한 웹 페이지 스크린 캡쳐"
+title: "Headless Chrome, Puppeteer를 활용한 웹 페이지 스크린 캡쳐"
 date: 2019-10-30 10:39:28 -0400
 categories: Web
 ---
@@ -14,7 +14,7 @@ cd C:\Program Files (x86)\Google\Chrome\Application
 .\chrome.exe --headless --screenshot=C:\Users\hwang\Downloads\test1.png --window-size=1000,1000 --default-background-color=0 https://acafela.github.io --virtual-time-budget=1000
 ```
 
-## Pupeteer 라이브러리 사용
+## Puppeteer 라이브러리 사용
 
 아래 코드는 http://localhost:9105/formtest.html에 접속해서 셀렉트 박스 선택값을 변경한 후
 웹 페이지를 C:/Users/hwang/vscode-ws/PlayGround/screenshot.png에 저장한다.
