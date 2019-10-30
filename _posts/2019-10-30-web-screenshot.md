@@ -17,7 +17,7 @@ cd C:\Program Files (x86)\Google\Chrome\Application
 ## Puppeteer 라이브러리 사용
 
 아래 코드는 http://localhost:9105/formtest.html에 접속해서 셀렉트 박스 선택값을 변경한 후
-웹 페이지를 C:/Users/hwang/vscode-ws/PlayGround/screenshot.png에 저장한다.
+웹 페이지를 C:/Users/hwang/vscode-ws/PlayGround/screenshot.png에 저장합니다.
 
 ```javascript
 const puppeteer = require('puppeteer');
