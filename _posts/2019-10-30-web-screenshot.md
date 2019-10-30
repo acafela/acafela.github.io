@@ -6,9 +6,10 @@ categories: Web
 
 ## 명령어로 Headless Chrome 실행
 
-> Windows 10, Chrome 78.0
+아래 명령어는 https://acafela.github.io에 접속해서 해당 페이지를 캡쳐합니다.
+++Windows 10, Chrome 78.0++ 에서 테스트 했습니다.
 
-```bash
+```powershell
 cd C:\Program Files (x86)\Google\Chrome\Application
 .\chrome.exe --headless --screenshot=C:\Users\hwang\Downloads\test1.png --window-size=1000,1000 --default-background-color=0 https://acafela.github.io --virtual-time-budget=1000
 ```
