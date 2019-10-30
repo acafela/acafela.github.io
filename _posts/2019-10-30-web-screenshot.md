@@ -7,7 +7,7 @@ categories: Web
 ## 명령어로 Headless Chrome 실행
 
 아래 명령어는 https://acafela.github.io에 접속해서 해당 페이지를 캡쳐합니다.
-++Windows 10, Chrome 78.0++ 에서 테스트 했습니다.
+*Windows 10, Chrome 78.0* 에서 테스트 했습니다.
 
 ```powershell
 cd C:\Program Files (x86)\Google\Chrome\Application
