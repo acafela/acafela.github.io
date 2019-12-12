@@ -14,12 +14,12 @@ LoadModule proxy_http_module modules/mod_proxy_http.so
 ## Proxy 설정
 
 ```apache
-    ProxyPreserveHost On
-    ProxyRequests Off
+ProxyPreserveHost On
+ProxyRequests Off
 
-    ProxyPass /pages http://localhost:9105/pages
-    ProxyPassReverse /pages http://localhost:9105/pages
+ProxyPass /pages http://localhost:9105/pages
+ProxyPassReverse /pages http://localhost:9105/pages
 
-    ProxyPassMatch    ^(/.*\.json)$ http://localhost:9105/$1    # 정규표현식 사용한 매치(*.json 모두 처리)
-    ProxyPassReverse  ^(/.*\.json)$ http://localhost:9105/$1
+ProxyPassMatch    ^(/.*\.json)$ http://localhost:9105/$1    # 정규표현식 사용한 매치(*.json 모두 처리)
+ProxyPassReverse  ^(/.*\.json)$ http://localhost:9105/$1
 ```
