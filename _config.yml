@@ -20,7 +20,7 @@ title                    : "Hwang's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Youn Sung Hwang"
-description              : "Post about Development"
+description              : "개인 정리용 사이트 입니다."
 url                      : "https://acafela.github.io"
 baseurl                  : ""
 repository               : acafela/acafela.github.io
