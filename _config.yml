@@ -22,7 +22,7 @@
 locale : "ko_KR"
 title : "Hwang's blog"
 subtitle : # site tagline that appears below site title in masthead
-name : "YounSung Hwang"
+name : "Youn Sung Hwang"
 description : "개발(코딩), 헬스(웨이트트레이닝) 정리 블로그입니다."
 url : "https://acafela.github.io"
 baseurl : ""
