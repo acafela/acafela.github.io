@@ -39,11 +39,11 @@ Salesforce를 써본적이 없어 Salesforce 설정 할때 조금 헤맸었습�
 
   ![Salesforce SAML SSO 설정화면 캡쳐](/assets/capture/salesforce-saml-sso-capture6.png)
 
-### 6. Authentication Service에서 5번 항목에서 설정한 SSO 설정 체크 후 [Save]
+### 7. Authentication Service에서 5번 항목에서 설정한 SSO 설정 체크 후 [Save]
 
   ![Salesforce SAML SSO 설정화면 캡쳐](/assets/capture/salesforce-saml-sso-capture7.png)
 
-### 7. 테스트
+### 8. 테스트
 
   https://{yourdomainname}.my.salesforce.com 접속해서 설정된 IdP Login URL로 리다이렉트 되는지 확인합니다.
 
