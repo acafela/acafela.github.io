@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+remote_theme: thelehhman/plainwhite-jekyll
+
 # Site Settings
 locale : "ko_KR"
 title : "Hwang's blog"
@@ -28,12 +30,6 @@ url : "https://acafela.github.io"
 baseurl : ""
 repository : acafela/acafela.github.io
 github_username: acafela
-
-search : true
-search_full_content: true
-search_provider : lunr
-
-remote_theme: thelehhman/plainwhite-jekyll
 
 # Build settings
 # theme: minima
