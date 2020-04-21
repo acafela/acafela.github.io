@@ -5,7 +5,7 @@ date: 2019-10-30 10:39:28 -0400
 categories: NodeJS Puppeteer Chrome
 ---
 
-웹 페이지 스크린 캡처를 위해서 Headless Chrome을 직접 실행하거나
+웹 페이지 스크린 캡처를 위해서 Headless Chrome을 직접 실행하거나  
 Node.js 라이브러리 Puppeteer를 사용 할 수 있습니다.
 
 ## 명령어로 Headless Chrome 실행
