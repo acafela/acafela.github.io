@@ -49,5 +49,5 @@ Salesforce를 써본적이 없어 Salesforce 설정 할때 조금 헤맸었습�
 
 ## Reference
 
-  - [자습서: Salesforce와 Azure Active Directory SSO(Single Sign-On) 연결](https://docs.microsoft.com/ko-kr/azure/active-directory/saas-apps/salesforce-tutorial)
-  - [Configure SAML Settings for Single Sign-On](https://help.salesforce.com/articleView?id=sso_saml.htm&type=5)
+  - [자습서: Salesforce와 Azure Active Directory SSO(Single Sign-On) 연결](https://docs.microsoft.com/ko-kr/azure/active-directory/saas-apps/salesforce-tutorial){:target="_blank"}
+  - [Configure SAML Settings for Single Sign-On](https://help.salesforce.com/articleView?id=sso_saml.htm&type=5){:target="_blank"}
