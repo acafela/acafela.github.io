@@ -32,8 +32,9 @@ repository : acafela/acafela.github.io
 github_username: acafela
 
 # Build settings
-# theme: minima
-theme: plainwhite
+theme: minima
+# theme: plainwhite
+# theme: plainwhite-jekyll
 plugins:
   - jekyll-seo-tag
 
