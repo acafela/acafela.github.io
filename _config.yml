@@ -22,9 +22,9 @@ remote_theme: thelehhman/plainwhite-jekyll
 
 # Site Settings
 locale : "ko_KR"
-title : "Youn Sung blog"
+title : "황윤성 블로그"
 subtitle : # site tagline that appears below site title in masthead
-name : "Youn Sung Hwang"
+name : "황윤성"
 description : "개발 & 헬스(웨이트트레이닝)"
 url : "https://acafela.github.io"
 baseurl : ""
@@ -39,9 +39,7 @@ plugins:
 
 plainwhite:
   name: Youn Sung Hwang
-  tagline: |
-    Developer
-    Weight Training
+  tagline: 🐢 🧞‍ 🏋️‍
   date_format: "%Y. %-m. %-d"
 
   social_links:
