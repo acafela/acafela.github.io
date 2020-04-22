@@ -22,10 +22,10 @@ remote_theme: thelehhman/plainwhite-jekyll
 
 # Site Settings
 locale : "ko_KR"
-title : "Hwang's blog"
+title : "Youn Sung blog"
 subtitle : # site tagline that appears below site title in masthead
 name : "Youn Sung Hwang"
-description : "개발(코딩), 헬스(웨이트트레이닝) 정리 블로그입니다."
+description : "개발 & 헬스(웨이트트레이닝)"
 url : "https://acafela.github.io"
 baseurl : ""
 repository : acafela/acafela.github.io
@@ -34,7 +34,6 @@ github_username: acafela
 # Build settings
 theme: minima
 # theme: plainwhite
-# theme: plainwhite-jekyll
 plugins:
   - jekyll-seo-tag
 
