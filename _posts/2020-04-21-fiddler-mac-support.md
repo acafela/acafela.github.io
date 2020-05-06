@@ -5,8 +5,6 @@ date: 2020-04-21 17:00:00 +0900
 categories: Fiddler Mac
 ---
 
-## Fiddler Mac 지원(Beta)
-
 최근에 ```"Fiddler News - Fiddler now on Mac 🍎 & Linux 🐧"``` 제목의 메일을 받았습니다.  
 Windows에서는 웹개발할때 Fiddler를 유용하게 사용해왔습니다. 그러나 Mac에서는 Mono Framework 통해 실행하고 사용하는데 불편함이 있어 사용안했는데(버벅거리고.. 화면깨지고..) 반가운 내용이여서 내용 읽어보고 베타버전 설치해서 사용해봤습니다.  
 Mac, Linux에서 사용가능한 새로운 Fiddler 이름은 **Fiddler Everywhere** 인것 같습니다.  
