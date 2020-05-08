@@ -51,17 +51,17 @@ cd java-saml-example
 - 어드민 계정 ID/PWD : admin / admin123  
 - 일반 사용자 계정 ID/PWD : user / user123  
 
-  ![Java SAML Example 인증 화면](/assets/capture/java-saml-example-capture1.png)
+  ![Java SAML Example 인증 화면](/assets/capture/java-saml-example-capture1.PNG)
 
 #### 6. 인증 성공후 SAML Response NameID, Attributes 값 확인
 
 - LocalAuthenticationProvider Bean 생성시 주입된 사용자 정보가 표시됩니다.
 
 - admin 계정으로 로그인 시  
-  ![Java SAML Example 인증 완료 화면1](/assets/capture/java-saml-example-capture2.png)
+  ![Java SAML Example 인증 완료 화면1](/assets/capture/java-saml-example-capture2.PNG)
 
 - user 계정으로 로그인 시  
-  ![Java SAML Example 인증 완료 화면2](/assets/capture/java-saml-example-capture3.png)
+  ![Java SAML Example 인증 완료 화면2](/assets/capture/java-saml-example-capture3.PNG)
 
 ### Database, Active Directory 등 실제 사용자 정보가 있는 곳에서 인증 받기
 
