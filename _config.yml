@@ -33,7 +33,7 @@ github_username: acafela
 
 # Build settings
 theme: minima
-# theme: plainwhite
+#theme: plainwhite
 plugins:
   - jekyll-seo-tag
 
@@ -49,6 +49,8 @@ plainwhite:
   #     url: "/my-work"
   #   - title: Resume
   #     url: "/resume"
+
+  disqus_shortname: acafela-blog
 
 show_excerpts: true
 
@@ -71,3 +73,4 @@ show_excerpts: true
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
