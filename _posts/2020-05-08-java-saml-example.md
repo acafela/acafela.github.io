@@ -5,14 +5,14 @@ date: 2020-05-08 11:05:00 +0900
 categories: SAML Java SSO
 ---
 
-Single Sign On을 위한 방식 중 SAML 이해를 위해 예제를 만들어 봤습니다.  
+Single Sign On을 위한 방식 중 SAML 파일럿 프로젝트 위해 코드를 만들어 봤습니다.  
 간단히 SAML 2.o IdP, SP 테스트나 POC가 필요하시면 해당 예제 참고하면 좋겠습니다.  
 전체 소스는 [링크](https://github.com/acafela/java-saml-example){:target="_blank"}에서 확인 가능합니다.  
 
 ### SAML 2.0 Java 예제 SSO 시나리오 - SP-Initiated SSO : Redirect/POST Bindings
 
 SAML SSO의 여러 사용 케이스 중 [SP-Initiated SSO : Redirect/POST Bindings](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.2.SP-Initiated%20SSO:%20%20Redirect/POST%20Bindings|outline){:target="_blank"} 을 테스트 가능합니다.  
-조금 더 복잡한 설정이나, 다양한 사용 케이스 테스트가 필요하면 [OpenConext/Mujina](https://github.com/OpenConext/Mujina){:target="_blank"}, [pac4j](https://github.com/pac4j/pac4j){:target="_blank"} 를 참고하시기 바랍니다.  
+조금 더 복잡한 설정이나, 다양한 사용 케이스 테스트가 필요하면 [OpenConext/Mujina](https://github.com/OpenConext/Mujina){:target="_blank"}, [pac4j](https://github.com/pac4j/pac4j){:target="_blank"} 🙏 를 참고하시기 바랍니다.  
 현재 프로젝트를 만들때 참고한 오픈소스 입니다.
 
 ### 실행 환경, 주요 라이브러리
