@@ -14,7 +14,7 @@ Legacy 시스템 연동을 위해서 LTLM 인증을 사용해야 할 경우가 �
 
 ### NTLM Over HTTP Protocol
 
-HTTP 프로토콜을 사용하는 EWS(Exchange on-premises), IIS 서비스와 같은 시스템 인증을 위해서 지원되는 방식입니다.
+HTTP 프로토콜을 사용하는 IIS 서비스, EWS(Exchange on-premises) 같은 시스템에서 NTLM 인증을 사용하기 위한 방식입니다.
 
 ### Authentication Flow
 
