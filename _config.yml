@@ -25,7 +25,7 @@ locale : "ko_KR"
 title : "황윤성 블로그"
 subtitle : # site tagline that appears below site title in masthead
 name : "황윤성"
-description : "개발 & 헬스(웨이트트레이닝)"
+description : 🐢 🧞‍ 🏋️‍
 url : "https://acafela.github.io"
 baseurl : ""
 repository : acafela/acafela.github.io
@@ -33,7 +33,7 @@ github_username: acafela
 
 # Build settings
 theme: minima
-#theme: plainwhite
+# theme: plainwhite
 plugins:
   - jekyll-seo-tag
 
