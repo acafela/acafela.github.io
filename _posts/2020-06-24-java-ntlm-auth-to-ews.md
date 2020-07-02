@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java NTLM Over HTTP Protocol 인증하기"
+title: "Java NTLM Over HTTP Protocol 인증"
 date: 2020-06-25 10:39:28 +0900
 categories: NTLM Java EWS
 ---
