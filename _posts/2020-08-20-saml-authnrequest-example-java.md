@@ -39,7 +39,7 @@ compile group: 'org.opensaml', name: 'opensaml', version: '2.6.4'
 전체 소스 올리는게 테스트 할때 편할것 같아 전체 소스를 올립니다.  
 소스에 대한 설명은 주석으로 달아놨습니다.
 
-##### 실제 Spring 프로젝트에 적용하기 위한 Spring Security 에 적용한 샘플 보기
+**실제 Spring 프로젝트에 적용하기 위한 Spring Security 에 적용한 샘플 보기**
 
 - [SamlSsoEntryPoint.java](https://github.com/acafela/java-saml-example/blob/master/saml-example-sp/src/main/java/saml/example/sp/SamlSsoEntryPoint.java){:target="_blank"}
 - [WebSecurityConfigurer.java](https://github.com/acafela/java-saml-example/blob/master/saml-example-sp/src/main/java/saml/example/sp/WebSecurityConfigurer.java){:target="_blank"}
