@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java SAML Request Example
+title: Java SAML Request 예제
 date: 2020-08-20 00:00:00 +0000
 categories: SAML SAMLRequest AuthnReuqest
 ---
