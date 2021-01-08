@@ -10,7 +10,6 @@ categories: SpringBoot SSL TLS Tomcat
 ## 개발환경
 
 - Spring Boot 2.1.9.RELEASE
-- Gradle 4.7
 - JDK 1.8
 
 ## 주요 Stack Trace
