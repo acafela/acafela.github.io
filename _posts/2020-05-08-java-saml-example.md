@@ -39,7 +39,7 @@ cd java-saml-example
 ./gradlew :saml-example-sp:bootRun
 ```
 
-#### 4. [http://localhost:9106/user](http://localhost:9106/user){:target="_blank"} 접속, 로그인하기 클릭
+#### 4. [Service provider - http://localhost:9106/user](http://localhost:9106/user){:target="_blank"} 접속
 
 - _Identity Provider 인증 페이지로 리다이렉트 됩니다._
 
