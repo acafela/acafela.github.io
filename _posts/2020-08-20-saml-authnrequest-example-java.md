@@ -1,10 +1,3 @@
----
-layout: post
-title: Java SAML Request 예제
-date: 2020-08-20 00:00:00 +0000
-categories: SAML SAMLRequest AuthnReuqest
----
-
 Java OpenSAML 사용해서 AuthnReuqest 생성하는 예제 입니다.  
 SAML SP-Initiated Flow에서 AuthnReuqest는 *Service Provider -> Identity Provider*로 전송 됩니다.
 

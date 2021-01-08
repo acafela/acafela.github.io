@@ -1,10 +1,3 @@
----
-layout: post
-title: Salesforce SAML SSO 설정하기
-date: 2020-04-11 10:39:28 +0900
-categories: Salesforce SAML SSO
----
-
 POC로 개발한 IdP 서버를 사용해 Salesforce와 SAML SSO를 할일이 있었습니다.  
 Salesforce를 써본적이 없어 Salesforce 설정 할때 조금 헤맸었습니다.  
 이 게시글에서는 Salesforce SAML SSO 설정 방법을 설명합니다. 
