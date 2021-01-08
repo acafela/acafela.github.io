@@ -6,7 +6,7 @@ categories: SAML Java SSO
 ---
 
 Single Sign On을 위한 방식 중 SAML 파일럿 프로젝트 위해 코드를 만들어 봤습니다.  
-간단히 SAML 2.0 identity provider, service Provider 테스트가 필요하면 해당 예제 참고하면 좋겠습니다.  
+간단히 SAML 2.0 identity provider, service provider 테스트가 필요하면 해당 예제 참고하면 좋겠습니다.  
 전체 소스는 [링크](https://github.com/acafela/java-saml-example){:target="_blank"}에서 확인 가능합니다.  
 
 ### SAML 2.0 Java 예제 SSO 시나리오 - SP-Initiated SSO : Redirect/POST Bindings
