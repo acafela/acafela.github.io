@@ -32,6 +32,7 @@ final Registry<AuthSchemeProvider> authSchemeRegistry = RegistryBuilder.<AuthSch
                                                                         .register(AuthSchemes.NTLM, new NTLMSchemeFactory())
                                                                         .build();
 final ClosableHttpClient httpClient = HttpClients.custom()
-                                                  .setDefaultAuthSchemeRegistry(authSchemeRegistry);
-                                                  .setDefaultCredentialsProvider(credentialsProvider).build();
+                                                  .setDefaultAuthSchemeRegistry(authSchemeRegistry)
+                                                  .setDefaultCredentialsProvider(credentialsProvider)
+                                                  .build();
 ```
