@@ -11,7 +11,7 @@ Apache에서 지원하는 Reverse Proxy 설정하는 방법입니다.
 
 우선 Proxy 관련한 모듈 사용을 위해 아래 라인의 주석을 해제해 줍니다.
 
-```apache
+```shell
 LoadModule proxy_module modules/mod_proxy.so
 LoadModule proxy_http_module modules/mod_proxy_http.so
 ```
@@ -22,7 +22,7 @@ LoadModule proxy_http_module modules/mod_proxy_http.so
 
 URL(/api)에 대해 http://localhost:9105/api/v10 로 요청 넘기기
 
-```apache
+```shell
 <VirtualHost *:80>
   ProxyPass /api http://localhost:9105/api/v10
   ProxyPassReverse /api http://localhost:9105/api/v10
@@ -33,7 +33,7 @@ URL(/api)에 대해 http://localhost:9105/api/v10 로 요청 넘기기
 
 URL(.json으로 끝나는)에 대해 http://localhost:9105 로 요청 넘기기
 
-```apache
+```shell
 <VirtualHost *:80>
   ProxyPassMatch ^(/.*\.json)$ http://localhost:9105/$1
   ProxyPassReverse ^(/.*\.json)$ http://localhost:9105/$1
