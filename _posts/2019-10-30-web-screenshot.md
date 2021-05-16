@@ -11,7 +11,7 @@ Node.js 라이브러리 Puppeteer를 사용 할 수 있습니다.
 ## 명령어로 Headless Chrome 실행
 
 아래 명령어는 https://acafela.github.io에 접속해서 해당 페이지를 캡쳐합니다.  
-*Windows 10, Chrome 78.0* 에서 테스트 했습니다.
+*Chrome 78.0* 에서 테스트 했습니다.
 
 ```powershell
 cd C:\Program Files (x86)\Google\Chrome\Application
@@ -29,14 +29,11 @@ const puppeteer = require('puppeteer');
 (async () => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    let response = await page.goto('http://localhost:9105/formtest.html', {waitUntil : "networkidle0" })
+    let response = await page.goto('http://localhost:9105/formtest.html', { waitUntil : "networkidle0" })
                             .then(() => page.select('#selMemberNo', '07730063'))
                             .then(() => page.select('#selBranch', 'RKT01'))
                             .then(() => page.select('#selSrchMonth', '11'));
-
-    page.screenshot({path: 'C:/Users/hwang/vscode-ws/PlayGround/screenshot.png'})
-
-
+    page.screenshot({path: 'C:/Users/hwang/vscode-ws/PlayGround/screenshot.png'});
     await browser.close();
 })();
 ```
