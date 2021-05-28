@@ -7,7 +7,10 @@ categories: SAML Java SSO
 
 ### 예제 SAML SSO 케이스 - SP-Initiated SSO : Redirect/POST Bindings
 SAML 여러 사용 케이스 중 SP-Initiated SSO : Redirect/POST Bindings 테스트 가능합니다.  
-전체 소스는 [링크](https://github.com/acafela/java-saml-example){:target="_blank"}에서 확인 가능합니다.
+전체 소스는 [링크](https://github.com/acafela/java-saml-example){:target="_blank"}에서 확인 가능합니다.  
+2개의 모듈이 아래 역할을 합니다.  
+- saml-example-idp : Identity Provider
+- saml-example-sp : Service Provider
 
 ### 실행 환경
 
@@ -52,7 +55,7 @@ cd java-saml-example
 
 ### Identity Provider 주요 클래스
 
-- AbstractSamlPrincipalFactory : SamlPrincipal 생성, 옵션 Attribute는 createAttributes() 추상 메소드에서 생성
+- SamlResponseFilter : SAML Response 전달을 위한 필터
 
 ### Reference
 
