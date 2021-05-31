@@ -41,14 +41,32 @@ plainwhite:
   name: Youn Sung Hwang
   tagline: 🐢 🧞‍ 🏋️‍
   date_format: "%Y. %-m. %-d"
-
+  sitemap: true # set to true to generate sitemap.xml content
+#  search: true # set to true to enable searchbar
+  dark_mode: true # set to true to add dark mode toggle
+  condensed_mobile:
+    - home
+    - post
+    - page
   social_links:
     github: acafela
-  # navigation:
-  #   - title: My Work
-  #     url: "/my-work"
-  #   - title: Resume
-  #     url: "/resume"
+    linkedIn: in/youn-sung-hwang-ba4741174
+    #rss: rss
+    #dribbble: jekyll
+    #flickr:   jekyll
+    #instagram: jekyll
+    #pinterest: jekyll
+    #youtube: jekyll
+    #facebook: jekyll
+    #soundcloud: jekyll
+    #telegram: jekyll
+    #gitlab: jekyll
+    #email: jekyll
+  navigation:
+    - title: Posts
+      url: "/"
+    - title: About
+      url: "/about"
 
   disqus_shortname: acafela-blog
 
