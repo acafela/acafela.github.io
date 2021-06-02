@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Headless Chrome, Puppeteer를 활용한 웹 페이지 스크린 캡쳐"
-date: 2019-10-30 10:39:28 -0400
+date: 2019-10-30
 categories: NodeJS Puppeteer Chrome
 ---
 

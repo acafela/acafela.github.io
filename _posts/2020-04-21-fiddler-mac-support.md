@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fiddler Mac 지원(Beta), Mac Fiddler 인증서 설치
-date: 2020-04-21 17:00:00 +0900
+date: 2020-04-21
 categories: Fiddler Mac
 ---
 

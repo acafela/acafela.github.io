@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Java SAML 구현 예제 (SAML IdP, SAML SP 구현)
-date: 2020-05-08 11:05:00 +0900
+date: 2020-05-08
 categories: SAML Java SSO
+sitemap :
+    lastmod : 2021-06-02
 ---
 
 ### 예제 SAML SSO 케이스 - SP-Initiated SSO : Redirect/POST Bindings

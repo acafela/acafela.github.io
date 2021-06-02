@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "NTLM Over HTTP Protocol 인증"
-date: 2020-06-25 10:39:28 +0900
+date: 2020-06-25
 categories: NTLM Windows HttpClient
+sitemap : 
+    lastmod : 2021-06-02
 ---
 
 NTLM은 Windows 서버에서 인증을 제공하기 위한 프로토콜 중 하나 입니다.  

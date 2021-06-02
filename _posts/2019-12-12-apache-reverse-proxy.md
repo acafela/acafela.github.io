@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apache Reverse Proxy 설정"
-date: 2019-12-12 10:39:28 -0400
+date: 2019-12-12
 categories: Apache ReverseProxy
 ---
 

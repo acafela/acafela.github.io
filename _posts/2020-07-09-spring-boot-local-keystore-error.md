@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring Boot executable jar local keystore 읽지 못하는 버그 및 해결"
-date: 2020-07-09 10:39:28 +0900
+date: 2020-07-09
 categories: SpringBoot SSL TLS Tomcat
 ---
 
