@@ -4,9 +4,14 @@ title: Java SAML 구현 예제 (SAML IdP, SAML SP 구현)
 date: 2020-05-08
 categories: SAML Java SSO
 sitemap :
-    lastmod : 2021-06-02
+    lastmod : 2021-07-20
 ---
 
+SAML(Security Assertion Markup Language)은 온라인 비즈니스 파트너 간 보안 정보를 교환하기 위한 XML 기반 프레임워크 입니다.  
+Web에서 멀티 도메인간 SSO를 위해서 사용 될 수 있습니다.
+
+![saml-concept](/assets/capture/saml-concept.png)
+  
 ### 예제 SAML SSO 케이스 - SP-Initiated SSO : Redirect/POST Bindings
 
 SAML 여러 사용 케이스 중 SP-Initiated SSO : Redirect/POST Bindings 테스트 가능합니다.  

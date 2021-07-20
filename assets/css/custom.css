@@ -11,3 +11,13 @@ blockquote, dl, ol, p, pre, ul {
 .about img {
     border-radius: 50%;
 }
+
+.post-container .post img[src='/assets/capture/saml-concept.png'] {
+    width: 40rem;
+}
+
+.post-container .post img[src='/assets/capture/saml-concept.png'] {
+    width: 40rem;
+    display: block;
+    margin: 0 auto 4rem;
+}
