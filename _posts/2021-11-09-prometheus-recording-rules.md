@@ -8,9 +8,22 @@ categories: Prometheus RecordingRules
 ## Recoring Rule
 
 Recording rule을 사용하면 미리 계산된 쿼리 결과를 새로운 시계열 데이터로 저장 할 수 있습니다.  
-샘플수가 너무 많아 쿼리 실행이 느리거나, 아에 실행이 안되는 경우(_query.max-samples_ 카운트 초과)  
-매번 원본 데이터에 쿼리를 수행하는 것이 아닌 Recording rule로 미리 계산된 데이터에 쿼리를 수행하면 쿼리 성능을 개선할 수 있습니다.(사용되는 샘플 갯수를 확 줄일 수 있다!)  
-대시보드를 구성하는 경우 일정 시간 마다 동일한 쿼리 반복하는데, 이때에도 유용하게 사용 될 수 있습니다.
+새롭게 생성된 시계열 데이터는 다른 데이터들 처럼 쿼리에 사용 될 수 있습니다.
+
+## 언제 사용 될 수 있을까?
+
+### 샘플수가 너무 많아 쿼리 실행이 느리거나, _query.max-samples_ 카운트 초과로 쿼리 수행 자체가 막히는 경우  
+
+- 매번 원본 데이터에 쿼리를 수행하는 것이 아닌 Recording rule로 미리 계산된 데이터에 쿼리를 수행하면 쿼리 성능 개선가능(사용되는 샘플 갯수를 확 줄일 수 있다!)  
+
+### 대시보드를 구성하는 경우
+
+- 일정 시간 마다 여러 패널에서 동일한 쿼리 반복할때, 반복되는 쿼리를 recording rule을 만들어두면 효율적으로 리소스를 사용 할 수 있다.
+
+## 적용시 단점
+
+- 설정한 정기적인 시간마다 쿼리를 수행하므로 당연히 리소스를 더 사용하게 되고
+- rule로 새롭게 생성된 데이터를 저장할 저장공간도 추가로 필요함
 
 ## Recording Rule 설정하기
 
@@ -29,16 +42,15 @@ Recording rule을 사용하면 미리 계산된 쿼리 결과를 새로운 시�
   ```bash
   promtool check rules rules/example_rules.yml
   ```
-  _SUCCESS: rules found_ 확인
-
   ![check-rules](/assets/capture/check-rules.png)
+  실행 결과 - _SUCCESS: rules found_ 확인
 
 - prometheus.yml 파일에 rule 설정 파일 추가
   ```yaml
-  # prometuehs.yml 파일 하단에 추가
-  ...
-  rule_files:
-  - 'rules/example_rules.yml' # 여기서 경로는 prometuehs.yml 파일에서 상대경로
+    # prometuehs.yml 파일 하단에 추가
+    ...
+    rule_files:
+      - 'rules/example_rules.yml' # 여기서 경로는 prometuehs.yml 파일에서 상대경로
   ```
 
 - Prometheus 설정 리로드
@@ -46,9 +58,9 @@ Recording rule을 사용하면 미리 계산된 쿼리 결과를 새로운 시�
   kill -HUP {promethues proecess id}
   ```
 
-- 설정 후 웹 화면에서 rule 확인 가능(__path : /rules__)  
-  상태, 마지막 실행 시간, 소요 시간 등 확인 가능  
+- 설정 후 웹 화면에서 rule 확인(__path : /rules__)  
   ![rules-web](/assets/capture/rules-web.png)
+  상태, 마지막 실행 시간, 소요 시간 확인 가능
 
 ## Recording Rule으로 생성된 데이터 사용
 
