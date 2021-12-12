@@ -70,5 +70,5 @@ Recording rule을 사용하면 미리 계산된 쿼리 결과를 새로운 시�
 
 ## 참고
 
-- https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/
-- https://prometheus.io/docs/practices/rules/#recording-rules
+- [https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/](https://prometheus.io/docs/prometheus/latest/configuration/recording_rules/)
+- [https://prometheus.io/docs/practices/rules/#recording-rules](https://prometheus.io/docs/practices/rules/#recording-rules)

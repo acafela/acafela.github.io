@@ -29,3 +29,8 @@ blockquote, dl, ol, p, pre, ul {
     width: 45rem;
     display: block;
 }
+
+.post-container .post img[src='/assets/capture/check-rules.png'] {
+    width: 35rem;
+    display: block;
+}
