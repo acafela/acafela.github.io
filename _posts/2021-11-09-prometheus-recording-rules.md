@@ -1,24 +1,23 @@
 ---
 layout: post
-title: "Prometheus recording rules 살펴보기(예제)"
+title: "Prometheus Rcording Rules 살펴보기 (예제)"
 date: 2021-08-02 00:00:00 +0900
 categories: Prometheus RecordingRules
 ---
 
-## Recoring Rule
-
-Recording rule을 사용하면 미리 계산된 쿼리 결과를 새로운 시계열 데이터로 저장 할 수 있습니다.  
+_Recording rule_ 을 사용하면 미리 계산된 쿼리 결과를 새로운 시계열 데이터로 저장 할 수 있습니다.  
 새롭게 생성된 시계열 데이터는 다른 데이터들 처럼 쿼리에 사용 될 수 있습니다.
 
 ## 언제 사용 될 수 있을까?
 
-### 샘플수가 너무 많아 쿼리 실행이 느리거나, _query.max-samples_ 카운트 초과로 쿼리 수행 자체가 막히는 경우  
+### 샘플수가 너무 많아 쿼리 실행이 느리거나, 한번의 쿼리에 사용 가능한 최대 샘플 수(_query.max-samples_ 설정 값) 초과로 쿼리 수행 자체가 막히는 경우  
 
-- 매번 원본 데이터에 쿼리를 수행하는 것이 아닌 Recording rule로 미리 계산된 데이터에 쿼리를 수행하면 쿼리 성능 개선가능(사용되는 샘플 갯수를 확 줄일 수 있다!)  
+- 매번 원본 데이터에 쿼리를 수행하는 것이 아닌 Recording rule로 미리 계산된 데이터에 쿼리를 수행하면 쿼리 성능 개선가능  
+(사용되는 샘플 수를 확 줄일 수 있다!)  
 
 ### 대시보드를 구성하는 경우
 
-- 일정 시간 마다 여러 패널에서 동일한 쿼리 반복할때, 반복되는 쿼리를 recording rule을 만들어두면 효율적으로 리소스를 사용 할 수 있다.
+- 일정 시간 마다 여러 패널에서 동일한 쿼리 반복할때, 반복되는 쿼리를 recording rule로 만들어두면 효율적으로 리소스를 사용 할 수 있다.
 
 ## 적용시 단점
 
@@ -39,13 +38,15 @@ Recording rule을 사용하면 미리 계산된 쿼리 결과를 새로운 시�
   ```
 
 - 생성한 rule 설정 파일이 문법적으로 문제 없는지 확인
+
   ```bash
   promtool check rules rules/example_rules.yml
   ```
   ![check-rules](/assets/capture/check-rules.png)
-  실행 결과 - _SUCCESS: rules found_ 확인
+  실행 결과 - `SUCCESS: rules found` 확인
 
 - prometheus.yml 파일에 rule 설정 파일 추가
+
   ```yaml
     # prometuehs.yml 파일 하단에 추가
     ...
@@ -54,6 +55,7 @@ Recording rule을 사용하면 미리 계산된 쿼리 결과를 새로운 시�
   ```
 
 - Prometheus 설정 리로드
+
   ```bash
   kill -HUP {promethues proecess id}
   ```
