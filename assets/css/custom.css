@@ -6,9 +6,6 @@ blockquote {
     color: rgba(0,0,0,.5);
     padding-left: 1.5em;
     border-left: 5px solid rgba(0,0,0,.1);
-}
-
-blockquote, dl, ol, p, pre, ul {
     margin: 1.2em 0;
 }
 
@@ -33,4 +30,20 @@ blockquote, dl, ol, p, pre, ul {
 .post-container .post img[src='/assets/capture/check-rules.png'] {
     width: 35rem;
     display: block;
+}
+
+.post-container div.highlight {
+    padding: 1px 20px;
+    font-size: 13px;
+}
+
+code.highlighter-rouge {
+    margin: 0 2px;
+    color: #c1788b;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    padding: 2px 5px;
+    letter-spacing: -0.3px;
+    font-size: 15px;
 }
