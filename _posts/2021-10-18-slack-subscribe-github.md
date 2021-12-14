@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Slack GitHub 연동하기 (Slack GitHub 구독, 알림받기)"
+title: "Slack + GitHub 연동하기 (Slack GitHub 구독, 알림받기)"
 date: 2021-10-18 00:00:00 +0900
 categories: Slack GitHub
 ---
