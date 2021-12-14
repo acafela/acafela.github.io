@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prometheus Rcording Rules 살펴보기 (예제)"
+title: "Prometheus Recording Rules 살펴보기 (예제)"
 date: 2021-08-02 00:00:00 +0900
 categories: Prometheus RecordingRules
 ---
