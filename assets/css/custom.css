@@ -113,8 +113,8 @@ code.highlighter-rouge {
     vertical-align: inherit;
     border-collapse: collapse;
 }
-.more-posts table th {
-    background-color: none;
+.more-posts table th, .more-posts table td {
+    background-color: white;
     border: none;
 }
 /* 게시글 더보기(다른글) 종료 */
