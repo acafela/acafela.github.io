@@ -3,6 +3,8 @@ layout: post
 title: "Slack + GitHub 연동하기 (Slack GitHub 구독, 알림받기)"
 date: 2021-10-18 00:00:00 +0900
 categories: [기타]
+sitemap :
+  lastmod : 2021-12-16
 ---
 
 GitHub를 Slack에 연동해서 여러 이벤트(`issues`, `pulls`, `commits`...)에 대한 알림을 받을 수 있습니다.  

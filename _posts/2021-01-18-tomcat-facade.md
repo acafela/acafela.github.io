@@ -4,7 +4,7 @@ title: "Tomcat의 RequestFacade, ResponseFacade 클래스 - 안전하게 Request
 date: 2021-01-18
 categories: [Tomcat]
 sitemap :
-  lastmod : 2021-07-20
+  lastmod : 2021-12-16
 ---
 
 톰캣 소스를 보다 RequestFacade, ResponseFacade 클래스를 보고 어떻게 사용되었지? 보다가 정리한 내용입니다.  

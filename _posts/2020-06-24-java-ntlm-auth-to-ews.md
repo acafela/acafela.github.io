@@ -3,8 +3,8 @@ layout: post
 title: "NTLM Over HTTP Protocol 인증"
 date: 2020-06-25
 categories: [Auth, NTLM]
-sitemap : 
-    lastmod : 2021-06-02
+sitemap :
+  lastmod : 2021-12-16
 ---
 
 NTLM은 Windows 서버에서 인증을 제공하기 위한 프로토콜 중 하나 입니다.  

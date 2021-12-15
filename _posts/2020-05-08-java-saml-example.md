@@ -4,7 +4,7 @@ title: Java SAML 구현 예제 (SAML IdP, SAML SP 구현)
 date: 2020-05-08
 categories: [SAML, Java, SSO]
 sitemap :
-    lastmod : 2021-07-20
+  lastmod : 2021-12-16
 ---
 
 SAML(Security Assertion Markup Language)은 온라인 비즈니스 파트너 간 보안 정보를 교환하기 위한 XML 기반 프레임워크 입니다.  

@@ -3,6 +3,8 @@ layout: post
 title: "Spring Boot executable jar local keystore 읽지 못하는 버그 및 해결"
 date: 2020-07-09
 categories: [SpringBoot, Tomcat]
+sitemap :
+  lastmod : 2021-12-16
 ---
 
 로컬에서는 잘 실행 되다가 개발서버 배포 후 오류를 일으켰던 Spring Boot Embedded Tomcat 버그에 대해 정리합니다.
