@@ -52,7 +52,7 @@ code.highlighter-rouge {
 .more-posts {
     border: 1px solid #E5E5E5;
     padding: 10px 10px 5px;
-    margin: 10px 0;
+    margin: 30px 0 15px 0;
     clear: both;
     display: block;
 }
@@ -90,7 +90,7 @@ code.highlighter-rouge {
     font-weight: normal;
     word-break: break-all;
     overflow: hidden;
-    line-height: 1.5;
+    line-height: 1.8;
     padding: 0 0 4px !important;
     display: table-cell;
     vertical-align: inherit;
@@ -112,5 +112,9 @@ code.highlighter-rouge {
     display: table-cell;
     vertical-align: inherit;
     border-collapse: collapse;
+}
+.more-posts table th {
+    background-color: none;
+    border: none;
 }
 /* 게시글 더보기(다른글) 종료 */
