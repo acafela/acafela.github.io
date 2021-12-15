@@ -2,7 +2,7 @@
 layout: post
 title: "Apache Reverse Proxy 설정"
 date: 2019-12-12
-categories: Apache ReverseProxy
+categories: Apache
 ---
 
 Apache에서 지원하는 Reverse Proxy 설정하는 방법입니다.

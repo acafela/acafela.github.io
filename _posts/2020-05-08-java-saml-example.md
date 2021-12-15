@@ -2,7 +2,7 @@
 layout: post
 title: Java SAML 구현 예제 (SAML IdP, SAML SP 구현)
 date: 2020-05-08
-categories: SAML Java SSO
+categories: [SAML, Java, SSO]
 sitemap :
     lastmod : 2021-07-20
 ---

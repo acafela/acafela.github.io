@@ -2,7 +2,7 @@
 layout: post
 title: "Prometheus Recording Rules 살펴보기 (예제)"
 date: 2021-08-02 00:00:00 +0900
-categories: Prometheus RecordingRules
+categories: Prometheus
 ---
 
 _Recording rule_ 을 사용하면 미리 계산된 쿼리 결과를 새로운 시계열 데이터로 저장 할 수 있습니다.  
