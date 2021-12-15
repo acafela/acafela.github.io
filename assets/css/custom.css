@@ -95,6 +95,9 @@ code.highlighter-rouge {
     display: table-cell;
     vertical-align: inherit;
     border-collapse: collapse;
+    background-color: white;
+    border: none;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
 }
 .more-posts-title a {
     color: #909090;
@@ -103,17 +106,15 @@ code.highlighter-rouge {
 .more-posts-title a:hover {
     color: #34373e;
 }
-.more-posts-date {
+.more-posts .more-posts-date {
     text-align: right;
     width: 80px;
-    font-size: 14px;
+    font-size: 13px;
     padding: 0 0 4px !important;
     color: #909090 !important;
     display: table-cell;
     vertical-align: inherit;
     border-collapse: collapse;
-}
-.more-posts table th, .more-posts table td {
     background-color: white;
     border: none;
 }
