@@ -29,7 +29,7 @@ layout: default
       <tbody>
         {% assign categoryMatchCount = 0 %}
         {% for post in site.posts %}
-          {% if page != post %}
+          {% if post != page %}
             {% for category in page.categories %}
               {% if post.categories contains category %}
                 {% assign categoryMatchCount = categoryMatchCount | plus: 1 %}
@@ -51,13 +51,15 @@ layout: default
         {% if categoryMatchCount < 1 %}
           {% assign morePostTitle = "ddd" %}
           {% for post in site.posts limit:5 %}
-            <tr>
-              <!-- 각 포스트의 링크도 자신의 사이트에 맞게 수정 -->
-              <th class="more-posts-title">
-                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-              </th>
-              <td class="more-posts-date">{{ post.date | date: '%Y. %m. %d' }}</td>
-            </tr>
+            {% if post != page %}
+              <tr>
+                <!-- 각 포스트의 링크도 자신의 사이트에 맞게 수정 -->
+                <th class="more-posts-title">
+                  <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                </th>
+                <td class="more-posts-date">{{ post.date | date: '%Y. %m. %d' }}</td>
+              </tr>
+            {% endif %}
           {% endfor %}
         {% endif %}
 
