@@ -11,7 +11,7 @@ Mac, Linux에서 사용가능한 새로운 Fiddler 이름은 **Fiddler Everywher
 
 ## 설치하기
 
-[Fiddler Everywhere 베타 버전 다운로드 페이지](https://www.telerik.com/download/fiddler-everywhere){:target="_blank"}  
+Fiddler Everywhere 베타 버전 다운로드 페이지(https://www.telerik.com/download/fiddler-everywhere)
 Mac에서 웹 디버깅 하기 한결 수월할것 같습니다. 기존에 비해 UI도 예뻐졌네요.  
 HTTPS 트래픽 캡쳐를 위해서 Fiddler 인증서 설치가 필요합니다.  
 Fiddler 인증서 설치는 필요하면 아래 내용 참고하시면 되겠습니다.  

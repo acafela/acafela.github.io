@@ -1,12 +1,3 @@
----
-layout: post
-title: "HTTP Cache"
-date: 2021-11-10
-categories: HTTP Cache
-sitemap :
-  lastmod : 2021-11-10
----
-
 HTTP Cache에 대한 정리
 
 ## Cache-Control 헤더

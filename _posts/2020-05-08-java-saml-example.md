@@ -45,7 +45,7 @@ cd java-saml-example
 ./gradlew :saml-example-sp:bootRun
 ```
 
-#### 4. [Service provider - http://localhost:9106/user](http://localhost:9106/user) 접속
+#### 4. Service provider - http://localhost:9106/user 접속
 
 - Identity Provider 인증 페이지로 리다이렉트
 
@@ -67,5 +67,5 @@ cd java-saml-example
 
 ### Reference
 
-- [OASIS Doc](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html)
-- [pac4j](https://github.com/pac4j/pac4j)
+- OASIS Doc : http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html
+- pac4j : https://github.com/pac4j/pac4j
