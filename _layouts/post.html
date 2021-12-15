@@ -34,7 +34,6 @@ layout: default
               {% if post.categories contains category %}
                 {% assign categoryMatchCount = categoryMatchCount | plus: 1 %}
                 <tr>
-                  <!-- 각 포스트의 링크도 자신의 사이트에 맞게 수정 -->
                   <th class="more-posts-title">
                     <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                   </th>
@@ -53,7 +52,6 @@ layout: default
           {% for post in site.posts limit:5 %}
             {% if post != page %}
               <tr>
-                <!-- 각 포스트의 링크도 자신의 사이트에 맞게 수정 -->
                 <th class="more-posts-title">
                   <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                 </th>
