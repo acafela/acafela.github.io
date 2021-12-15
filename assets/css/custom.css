@@ -2,13 +2,6 @@
     font-weight: 350;
 }
 
-blockquote {
-    color: rgba(0,0,0,.5);
-    padding-left: 1.5em;
-    border-left: 5px solid rgba(0,0,0,.1);
-    margin: 1.2em 0;
-}
-
 .about img {
     border-radius: 50%;
 }
@@ -37,6 +30,11 @@ blockquote {
     font-size: 13px;
 }
 
+#posts-label {
+    border-bottom: 1px solid #eee
+}
+
+/* <code> 커스텀 */ 
 code.highlighter-rouge {
     margin: 0 2px;
     color: #c1788b;
@@ -46,6 +44,14 @@ code.highlighter-rouge {
     padding: 2px 5px;
     letter-spacing: -0.3px;
     font-size: 15px;
+}
+
+/* <blockquote> 커스텀 */
+blockquote {
+    color: rgba(0,0,0,.5);
+    padding-left: 1.5em;
+    border-left: 5px solid rgba(0,0,0,.1);
+    margin: 1.2em 0;
 }
 
 /* 게시글 더보기(다른글) 시작 */
