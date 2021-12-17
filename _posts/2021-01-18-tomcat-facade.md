@@ -3,6 +3,7 @@ layout: post
 title: "Tomcat의 RequestFacade, ResponseFacade 클래스 - 안전하게 Request, Response 전달하기"
 date: 2021-01-18
 categories: [Tomcat]
+preview_image: /assets/capture/tomcat-facade.png
 sitemap :
   lastmod : 2021-12-16
 ---

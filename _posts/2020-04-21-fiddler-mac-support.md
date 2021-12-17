@@ -3,6 +3,7 @@ layout: post
 title: Fiddler Mac 지원(Beta), Mac Fiddler 인증서 설치
 date: 2020-04-21
 categories: [기타]
+preview_image: /assets/capture/mac-fiddler-cert-install1.png
 sitemap :
   lastmod : 2021-12-16
 ---

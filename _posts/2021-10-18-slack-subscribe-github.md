@@ -3,6 +3,7 @@ layout: post
 title: "Slack + GitHub 연동하기 (Slack GitHub 구독, 알림받기)"
 date: 2021-10-18 00:00:00 +0900
 categories: [기타]
+preview_image: /assets/capture/slack-subscribe-github/search-github-app.png
 sitemap :
   lastmod : 2021-12-16
 ---
@@ -45,7 +46,7 @@ Apps 목록에 GitHub가 추가 됩니다.
 1. `Connect GitHub account` 를 선택하고 Github에 로그인 하면 Verification Code 가 화면에 나타납니다.
 2. `Enter code` 를 선택해 code 를 입력합니다.
 
-![github-signin](/assets/capture/slack-subscribe-github/github-signin.png)
+![github-signin](/assets/capture/slack-subscribe-github/github-signin.png){:width="75%"}
 
 ![verificaton-code](/assets/capture/slack-subscribe-github/verification-code.png){:width="50%"}
 
