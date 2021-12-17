@@ -47,7 +47,7 @@ plainwhite:
   navigation:
     - title: Posts
       url: "/"
-    - title: Category
+    - title: Tags
       url: "/category"
     - title: About
       url: "/about"

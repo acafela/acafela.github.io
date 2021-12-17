@@ -1,5 +1,5 @@
 ---
-title: "Category"
+title: "Tags"
 layout: page
 permalink: /category
 ---
