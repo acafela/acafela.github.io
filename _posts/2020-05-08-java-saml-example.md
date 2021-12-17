@@ -67,5 +67,5 @@ cd java-saml-example
 
 ### Reference
 
-- OASIS Doc : http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html
-- pac4j : https://github.com/pac4j/pac4j
+- [OASIS Doc](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html)
+- [pac4j](https://github.com/pac4j/pac4j)

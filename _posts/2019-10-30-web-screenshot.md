@@ -12,7 +12,7 @@ Node.js 라이브러리 Puppeteer를 사용 할 수 있습니다.
 
 ## 명령어로 Headless Chrome 실행
 
-아래 명령어는 https://acafela.github.io에 접속해서 해당 페이지를 캡쳐합니다.  
+아래 명령어는 [https://acafela.github.io](https://acafela.github.io) 에 접속해서 해당 페이지를 캡쳐합니다.  
 *Chrome 78.0* 에서 테스트 했습니다.
 
 ```powershell

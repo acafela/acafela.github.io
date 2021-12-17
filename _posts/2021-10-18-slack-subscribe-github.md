@@ -45,7 +45,7 @@ Apps 목록에 GitHub가 추가 됩니다.
 1. `Connect GitHub account` 를 선택하고 Github에 로그인 하면 Verification Code 가 화면에 나타납니다.
 2. `Enter code` 를 선택해 code 를 입력합니다.
 
-![github-signin](/assets/capture/slack-subscribe-github/github-signin.png){:width="75%"}
+![github-signin](/assets/capture/slack-subscribe-github/github-signin.png)
 
 ![verificaton-code](/assets/capture/slack-subscribe-github/verification-code.png){:width="50%"}
 
