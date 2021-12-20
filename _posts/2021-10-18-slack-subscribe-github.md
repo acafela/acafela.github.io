@@ -3,6 +3,7 @@ layout: post
 title: "Slack + GitHub 연동하기 (Slack GitHub 구독, 알림받기)"
 date: 2021-10-18 00:00:00 +0900
 categories: [기타]
+tags: [Slack, GitHub]
 preview_image: /assets/capture/slack-subscribe-github/search-github-app.png
 sitemap :
   lastmod : 2021-12-16

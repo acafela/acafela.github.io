@@ -3,6 +3,7 @@ layout: post
 title: "NTLM Over HTTP Protocol 인증"
 date: 2020-06-25
 categories: [Auth, NTLM]
+tags: [Auth, NTLM]
 preview_image: /assets/capture/java-ntlm1.png
 sitemap :
   lastmod : 2021-12-16

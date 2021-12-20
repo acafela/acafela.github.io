@@ -6,10 +6,10 @@ permalink: /category
 
 <div class="category-container">
   <h1 id="posts-label">{{ page.title }}</h1>
-  {% for category in site.categories %}
-  <h3 id="{{category | first}}">{{category | first}}</h3>
+  {% for tag in site.tags %}
+  <h3 id="{{category | first}}">{{tag | first}}</h3>
   <ul>
-    {% for posts in category %}
+    {% for posts in tag %}
       {% for post in posts %}
         {% if post.url %}
           <li class="category-post-title">

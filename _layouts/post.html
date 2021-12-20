@@ -8,7 +8,7 @@ layout: default
   </a>
   <div class="post-meta">
     <ul class="post-categories">
-      {%- for tag in page.categories -%}
+      {%- for tag in page.tags -%}
       <li>{{ tag }}</li>
       {%- endfor -%}
     </ul>
@@ -19,36 +19,42 @@ layout: default
   </div>
   <div class="more-posts">
     <div class="more-category">
-      {% assign categories = page.categories | join: ", " %}
-      {% assign morePostTitle = "'" | append: categories | append:"' 카테고리의 다른 글" %}
+      {% assign tags = page.tags | join: ", " %}
+      {% assign morePostTitle = "'" | append: tags | append:"' 태그의 다른 글" %}
       <h4>{{ morePostTitle }}</h4>
       <!-- TODO 더보기 링크 -->
-      <!-- <a href="/category/{{ page.categories }}/index.html" class="more-button">더보기</a> -->
+      <a href="/" class="more-button">게시글 목록으로 이동</a>
     </div>
     <table>
       <tbody>
         {% assign categoryMatchCount = 0 %}
+        {% assign categoryMatchPosts = "" | split: ',' %}
         {% for post in site.posts %}
+          <!-- 현재 글은 리스트에서 제외 -->
           {% if post != page %}
-            {% for category in page.categories %}
-              {% if post.categories contains category %}
-                {% assign categoryMatchCount = categoryMatchCount | plus: 1 %}
-                <tr>
-                  <th class="more-posts-title">
-                    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                  </th>
-                  <td class="more-posts-date">{{ post.date | date: '%Y. %m. %d' }}</td>
-                </tr>
-                {% endif %}
-                {% if categoryMatchCount >= 5 %}
-                  {% break %}
-                {% endif %}
-            {% endfor %}
-          {% endif %}
+              {% for tag in page.tags %}
+                {% if post.tags contains tag %}
+                  <!-- 카테고리가 중복 되는 글일 경우, 리스트에 중복 숫자 만큼 나타나서 제거 -->
+                  {% if categoryMatchPosts contains post.title %}
+                  {% else %}
+                    {% assign categoryMatchCount = categoryMatchCount | plus: 1 %}
+                    {% assign categoryMatchPosts = categoryMatchPosts | push: post.title %}
+                    <tr>
+                      <th class="more-posts-title">
+                        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                      </th>
+                      <td class="more-posts-date">{{ post.date | date: '%Y. %m. %d' }}</td>
+                    </tr>
+                    {% endif %}
+                    {% if categoryMatchCount >= 5 %}
+                      {% break %}
+                    {% endif %}
+                  {% endif %}
+              {% endfor %}
+            {% endif %}
         {% endfor %}
 
         {% if categoryMatchCount < 1 %}
-          {% assign morePostTitle = "ddd" %}
           {% for post in site.posts limit:5 %}
             {% if post != page %}
               <tr>
@@ -60,7 +66,6 @@ layout: default
             {% endif %}
           {% endfor %}
         {% endif %}
-
       </tbody>
     </table>
   </div>
