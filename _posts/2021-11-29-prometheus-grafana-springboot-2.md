@@ -7,7 +7,7 @@ tags: [Monitoring, Prometheus, Grafana, SpringBoot]
 preview_image: /assets/capture/prometheus/panel.png
 ---
 
-이번 글에서는 [Prometheus, Grafana로 Spring Boot(+Custom metrics) 모니터링 하기 - 1](/2021/11/28/prometheus-grafana-springboot-1.html) 에 이어서 Grafana 설치, 대시보드 구성을 해보겠습니다.
+이번 글에서는 [Prometheus, Grafana로 Spring Boot(+Custom metrics) 모니터링 하기 - 1](/monitoring/2021/11/28/prometheus-grafana-springboot-1.html) 에 이어서 Grafana 설치, 대시보드 구성을 해보겠습니다.
 
 ## 순서
 
