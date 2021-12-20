@@ -14,8 +14,8 @@ Prometheus + Grafana 으로 Spring Boot 어플리케이션을 모니터링 할 �
 1. __Prometheus 설치__
 2. __Spring Boot Sample 앱 만들기__
 3. __Prometheus target 설정__
-4. Grafana 설치 [(다음글)](/monitoring/2021/11/29/prometheus-grafana-springboot-2.html)
-5. Grafana 대시보드 구성 [(다음글)](/monitoring/2021/11/29/prometheus-grafana-springboot-2.html)
+4. Grafana 설치 [(다음글)](/monitoring/2021/11/28/prometheus-grafana-springboot-2.html)
+5. Grafana 대시보드 구성 [(다음글)](/monitoring/2021/11/28/prometheus-grafana-springboot-2.html)
 
 ## Prometheus 설치
 
@@ -173,4 +173,4 @@ scrape_configs:
 ![graph](/assets/capture/prometheus/graph.png){:width="60%"}
 
 길어져서 Grafana 설치 & 대시보드 구성은 다음 글에서 이어서 포스팅 하겠습니다 💪   
-다음글 : [Prometheus, Grafana로 Spring Boot(+Custom metrics) 모니터링 하기 - 2](/monitoring/2021/11/29/prometheus-grafana-springboot-2.html){:target="_blank"}
+다음글 : [Prometheus, Grafana로 Spring Boot(+Custom metrics) 모니터링 하기 - 2](/monitoring/2021/11/28/prometheus-grafana-springboot-2.html){:target="_blank"}
