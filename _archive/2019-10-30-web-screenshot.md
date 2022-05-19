@@ -28,15 +28,11 @@ cd C:\Program Files (x86)\Google\Chrome\Application
 
 ```javascript
 const puppeteer = require('puppeteer');
-
 (async () => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    let response = await page.goto('http://localhost:9105/formtest.html', { waitUntil : "networkidle0" })
-                            .then(() => page.select('#selMemberNo', '07730063'))
-                            .then(() => page.select('#selBranch', 'RKT01'))
-                            .then(() => page.select('#selSrchMonth', '11'));
-    page.screenshot({path: 'C:/Users/hwang/vscode-ws/PlayGround/screenshot.png'});
+    await page.goto('http://localhost:9105/formtest.html', { waitUntil: "networkidle0" }
+    await page.screenshot({ path: 'C:/Users/hwang/vscode-ws/PlayGround/screenshot.png' });
     await browser.close();
 })();
 ```
