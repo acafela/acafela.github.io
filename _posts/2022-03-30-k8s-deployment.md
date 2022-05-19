@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Kubernetes Deployment, ReplicaSet 역할과 흐름"
+title: "Kubernetes - Deployment, ReplicaSet"
 date: 2022-03-30 00:00:00 +0900
 categories: Monitoring
-tags: [kubernetes]
+tags: [Kubernetes]
 preview_image: /assets/capture/k8s-deployment.png
 ---
 
