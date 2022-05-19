@@ -7,7 +7,7 @@ tags: [kubernetes]
 preview_image: /assets/capture/k8s-deployment.png
 ---
 
-Deployment가 ReplicaSet을 생성하고 이를 통해 명시된 Pod 갯수를 유지하는 흐름에 대한 설명입니다.
+Deployment를 통해 ReplicaSet을 생성하고 ReplicaSet이 명시된 Pod 갯수를 유지하는 흐름에 대한 설명입니다.
 
 ## Deployment & ReplicaSet
 
