@@ -3,7 +3,7 @@ layout: post
 title: "Apache Reverse Proxy 설정"
 date: 2019-12-12
 categories: [Apache]
-tags: [Apache, 웹서버]
+tags: [웹서버]
 sitemap :
   lastmod : 2021-12-16
 ---

@@ -4,7 +4,7 @@ title: Fiddler Mac 지원(Beta), Mac Fiddler 인증서 설치
 date: 2020-04-21
 categories: [기타]
 tags: [개발툴, Mac]
-preview_image: /assets/capture/mac-fiddler-cert-install1.png
+preview_image: /assets/capture/mac-fiddler-cert-install3.png
 sitemap :
   lastmod : 2021-12-16
 ---
@@ -15,8 +15,7 @@ Mac, Linux에서 사용가능한 새로운 Fiddler 이름은 **Fiddler Everywher
 
 ## 설치하기
 
-[Fiddler Everywhere 베타 버전 다운로드 페이지](https://www.telerik.com/download/fiddler-everywhere)  
-Mac에서 웹 디버깅 하기 한결 수월할것 같습니다. 기존에 비해 UI도 예뻐졌네요.  
+[Fiddler Everywhere 베타 버전 다운로드 페이지](https://www.telerik.com/download/fiddler-everywhere)
 HTTPS 트래픽 캡쳐를 위해서 Fiddler 인증서 설치가 필요합니다.  
 Fiddler 인증서 설치는 필요하면 아래 내용 참고하시면 되겠습니다.  
 
@@ -27,8 +26,7 @@ HTTPS 트래픽 캡쳐를 위해서 Fiddler 인증서 설치가 필요합니다.
 1. Setting > HTTPS > Decrypt HTTPS traffic 체크 & Export root certificate to Desktop 클릭  
 ![Mac Fiddler 인증서 설치](/assets/capture/mac-fiddler-cert-install1.png)
 
-2. Desktop 인증서 파일 클릭  
-![Mac Fiddler 인증서 설치](/assets/capture/mac-fiddler-cert-install2.png)
+2. 생성된 인증서 파일 실행(_FiddlerRootCertificate.crt_)
 
 3. 인증서 목록에서 DO_NOT_TRUST_FiddlerRoot Trsut > Always Trust로 변경  
 ![Mac Fiddler 인증서 설치](/assets/capture/mac-fiddler-cert-install4.png)

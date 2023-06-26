@@ -172,5 +172,5 @@ scrape_configs:
 
 ![graph](/assets/capture/prometheus/graph.png){:width="60%"}
 
-길어져서 Grafana 설치 & 대시보드 구성은 다음 글에서 이어서 포스팅 하겠습니다 💪   
+Grafana 설치 & 대시보드 구성은 다음 글에서 이어서 보실 수 있습니다.     
 다음글 : [Prometheus, Grafana로 Spring Boot(+Custom metrics) 모니터링 하기 - 2](/monitoring/2021/11/28/prometheus-grafana-springboot-2.html){:target="_blank"}
