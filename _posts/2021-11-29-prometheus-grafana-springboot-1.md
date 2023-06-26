@@ -3,7 +3,7 @@ layout: post
 title: "Prometheus, Grafana로 Spring Boot(+Custom metrics) 모니터링 하기 - 1"
 date: 2021-11-29 00:00:00 +0900
 categories: Monitoring
-tags: [Monitoring, Prometheus, Grafana, SpringBoot]
+tags: [모니터링, Prometheus, Grafana, SpringBoot]
 preview_image: /assets/capture/prometheus/actuator-metrics.png
 ---
 
